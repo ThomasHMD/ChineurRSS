@@ -11,12 +11,24 @@
     <atom:link href="https://thomashmd.github.io/ChineurRSS/feed.xml" rel="self" type="application/rss+xml" />
     <link>https://apps.thomashammoudi.com/promos-livres-photos</link>
     <description>Toutes les meilleures promos photo sélectionnées par Thomas Hammoudi</description>
-    <lastBuildDate>Mon, 12 Oct 2026 19:57:53 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 22:10:07 GMT</lastBuildDate>
     <language>fr-FR</language>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>https://n8n.io</generator>
 
+    <item>
+      <title><![CDATA[Kin]]></title>
+      <link>https://www.amazon.fr/dp/1597113018?tag=thomashammoud-21&amp;linkCode=ogi&amp;th=1&amp;psc=1</link>
+      <dc:creator><![CDATA[Thomas Hammoudi]]></dc:creator>
+      <pubDate>Sun, 18 Oct 2026 22:10:07 GMT</pubDate>
+      <description><![CDATA[<p><img src="https://thomashammoudi.com/wp-content/uploads/SoftRCover/479.png" alt="Couverture du livre : Kin" style="max-width:300px;width:100%;height:auto;border-radius:12px;box-shadow:0 2px 6px #0002;"/></p>
+Le livre « Kin » de Pieter Hugo est en promo : -37,05 € (49 %) 😊
+
+]]></description>
+      <guid isPermaLink="true">https://www.amazon.fr/dp/1597113018?tag=thomashammoud-21&amp;linkCode=ogi&amp;th=1&amp;psc=1</guid>
+      <enclosure url="https://thomashammoudi.com/wp-content/uploads/SoftRCover/479.png" length="0" type="image/jpeg"/>
+    </item>
     <item>
       <title><![CDATA[Nocturnes]]></title>
       <link>https://www.amazon.fr/dp/2365112552/ref=nosim?tag=thomashammoud-21</link>
