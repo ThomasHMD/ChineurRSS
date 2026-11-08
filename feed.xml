@@ -11,12 +11,24 @@
     <atom:link href="https://thomashmd.github.io/ChineurRSS/feed.xml" rel="self" type="application/rss+xml" />
     <link>https://apps.thomashammoudi.com/promos-livres-photos</link>
     <description>Toutes les meilleures promos photo sélectionnées par Thomas Hammoudi</description>
-    <lastBuildDate>Sun, 01 Nov 2026 23:10:10 GMT</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 23:10:10 GMT</lastBuildDate>
     <language>fr-FR</language>
     <sy:updatePeriod>weekly</sy:updatePeriod>
     <sy:updateFrequency>1</sy:updateFrequency>
     <generator>https://n8n.io</generator>
 
+    <item>
+      <title><![CDATA[Gunkanjima, l'île cuirassée]]></title>
+      <link>https://www.amazon.fr/dp/3869305096?tag=thomashammoud-21&amp;linkCode=ogi&amp;th=1&amp;psc=1</link>
+      <dc:creator><![CDATA[Thomas Hammoudi]]></dc:creator>
+      <pubDate>Sun, 08 Nov 2026 23:10:10 GMT</pubDate>
+      <description><![CDATA[<p><img src="https://thomashammoudi.com/wp-content/uploads/SoftRCover/463.png" alt="Couverture du livre : Gunkanjima, l'île cuirassée" style="max-width:300px;width:100%;height:auto;border-radius:12px;box-shadow:0 2px 6px #0002;"/></p>
+Le livre « Gunkanjima, l'île cuirassée » de Yves Marchand est en promo : -45,05 € (69 %) 😊
+
+]]></description>
+      <guid isPermaLink="true">https://www.amazon.fr/dp/3869305096?tag=thomashammoud-21&amp;linkCode=ogi&amp;th=1&amp;psc=1</guid>
+      <enclosure url="https://thomashammoudi.com/wp-content/uploads/SoftRCover/463.png" length="0" type="image/jpeg"/>
+    </item>
     <item>
       <title><![CDATA[Inside North Korea]]></title>
       <link>https://www.amazon.fr/dp/3836572214?tag=thomashammoud-21&amp;linkCode=ogi&amp;th=1&amp;psc=1</link>
