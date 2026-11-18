@@ -1,20 +1,22 @@
+**English** | [Français](README.fr.md)
+
 # Chineur RSS
 
-Flux RSS statique du **Chineur de Livres Photo**.
+Static RSS feed of the **Chineur de Livres Photo** (a photobook deal finder).
 
-Généré chaque lundi à 00h10 (Europe/Paris) par un workflow n8n qui :
-1. interroge la base Notion `Ma bibliothèque`,
-2. sélectionne 10 livres en promo (réduction ≥ 25%, visibles dans le Chineur),
-3. reconstruit `feed.xml` et le pousse sur la branche `main`.
+Generated every Monday at 00:10 (Europe/Paris) by an n8n workflow that:
+1. queries the Notion database `Ma bibliothèque` (my library),
+2. selects 10 discounted books (discount ≥ 25%, visible in the Chineur),
+3. rebuilds `feed.xml` and pushes it to the `main` branch.
 
-Le fichier est ensuite servi par GitHub Pages à l'URL :
+The file is then served by GitHub Pages at:
 
 ```
 https://thomashmd.github.io/ChineurRSS/feed.xml
 ```
 
-C'est cette URL qui est consommée par Metricool pour programmer automatiquement les publications sociales.
+This is the URL that Metricool consumes to schedule social media posts automatically.
 
-## Pourquoi un fichier statique ?
+## Why a static file?
 
-L'ancien système exposait un webhook n8n que Metricool polait en boucle (plusieurs fois par heure). Chaque appel déclenchait l'exécution d'un workflow complet (Notion + code + réponse) et faisait tourner 4 services Railway pour rien. Le passage à un fichier statique élimine 100% de ces exécutions inutiles.
+The old system exposed an n8n webhook that Metricool polled in a loop (several times an hour). Each call triggered a full workflow run (Notion + code + response) and kept 4 Railway services running for nothing. Switching to a static file removes 100% of those useless runs.
